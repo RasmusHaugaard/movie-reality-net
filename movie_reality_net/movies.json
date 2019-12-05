@@ -1,0 +1,142 @@
+[
+    {
+        "name": "a_bugs_life",
+        "file_name": "synth/a_bugs_life.mp4",
+        "start": 29,
+        "end": 5303,
+        "type": "synth"
+    },
+    {
+        "name": "bohemian_rhapsody",
+        "file_name": "real/bohemian_rhapsody.mp4",
+        "start": 46,
+        "end": 7711,
+        "type": "real"
+    },
+    {
+        "name": "cast_away",
+        "file_name": "real/cast_away.mp4",
+        "start": 46,
+        "end": 8208,
+        "type": "real"
+    },
+    {
+        "name": "cloudy_with_a_chance_of_meatballs",
+        "file_name": "synth/cloudy_with_a_chance_of_meatballs.mp4",
+        "start": 52,
+        "end": 4876,
+        "type": "synth"
+    },
+    {
+        "name": "coco",
+        "file_name": "synth/coco.mp4",
+        "start": 47,
+        "end": 5763,
+        "type": "synth"
+    },
+    {
+        "name": "despicable_me",
+        "file_name": "synth/despicable_me.mp4",
+        "start": 66,
+        "end": 5250,
+        "type": "synth"
+    },
+    {
+        "name": "frozen",
+        "file_name": "synth/frozen.mp4",
+        "start": 105,
+        "end": 5542,
+        "type": "synth"
+    },
+    {
+        "name": "lady_bird",
+        "file_name": "real/lady_bird.mp4",
+        "start": 25,
+        "end": 5310,
+        "type": "real"
+    },
+    {
+        "name": "life_as_we_know_it",
+        "file_name": "real/life_as_we_know_it.mp4",
+        "start": 28,
+        "end": 6628,
+        "type": "real"
+    },
+    {
+        "name": "moonlight",
+        "file_name": "real/moonlight.mp4",
+        "start": 35,
+        "end": 6383,
+        "type": "real"
+    },
+    {
+        "name": "notting_hill",
+        "file_name": "real/notting_hill.mp4",
+        "start": 39,
+        "end": 7192,
+        "type": "real"
+    },
+    {
+        "name": "ratatouille",
+        "file_name": "synth/ratatouille.mkv",
+        "start": 95,
+        "end": 6162,
+        "type": "synth"
+    },
+    {
+        "name": "saving_private_ryan",
+        "file_name": "real/saving_private_ryan.mp4",
+        "start": 27,
+        "end": 9700,
+        "type": "real"
+    },
+    {
+        "name": "tangled",
+        "file_name": "synth/tangled.mkv",
+        "start": 55,
+        "end": 5471,
+        "type": "synth"
+    },
+    {
+        "name": "the_adventures_of_tintin",
+        "file_name": "synth/the_adventures_of_tintin.mp4",
+        "start": 243,
+        "end": 6015,
+        "type": "synth"
+    },
+    {
+        "name": "the_holiday",
+        "file_name": "real/the_holiday.mp4",
+        "start": 20,
+        "end": 7810,
+        "type": "real"
+    },
+    {
+        "name": "the_kings_speech",
+        "file_name": "real/the_kings_speech.mkv",
+        "start": 42,
+        "end": 6688,
+        "type": "real"
+    },
+    {
+        "name": "the_shawshank_redemption",
+        "file_name": "real/the_shawshank_redemption.mp4",
+        "start": 61,
+        "end": 8299,
+        "type": "real"
+    },
+    {
+        "name": "toy_story",
+        "file_name": "synth/toy_story.mp4",
+        "start": 49,
+        "end": 4624,
+        "type": "synth"
+    },
+    {
+        "name": "zootopia",
+        "file_name": "synth/zootopia.mp4",
+        "start": 63,
+        "end": 5787,
+        "type": "synth"
+    }
+]

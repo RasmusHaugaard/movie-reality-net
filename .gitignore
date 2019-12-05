@@ -1,0 +1,6 @@
+*.npy
+*.egg-info
+*.mp4
+*.mkv
+.idea
+*.pyc
