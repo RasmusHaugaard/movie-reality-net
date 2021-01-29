@@ -18,7 +18,7 @@ movies = json.load(open("movies.json"))  # type: list
 crop_size = (args.min_size, args.max_size)  # fac of min(h, w)
 crop_res = args.crop_res
 
-N = args.N
+N = args.N * {"": 1, "k": int(1e3), "M": int(1e6)}[args.unit]
 NM = N // len(movies)
 assert N % NM == 0, "N has to be a multiple of len(movies)"
 
@@ -38,6 +38,7 @@ for movie_i, movie in enumerate(movies):
     frames = frames.astype(np.int)
 
     for frame in progressbar(frames):
+        #  This is faster when sampling dense frames than setting POS_FRAMES
         while cap.get(cv2.CAP_PROP_POS_FRAMES) != frame:
             _, img = cap.read()
 
@@ -51,7 +52,7 @@ for movie_i, movie in enumerate(movies):
 
         # resize
         img = cv2.resize(img, (crop_res, crop_res), interpolation=cv2.INTER_AREA)
-        crops[crop_i] = img
+        crops[crop_i] = img[..., ::-1]  # bgr -> rgb
         crop_i += 1
 
 name = "crop_{}_{}{}_{}-{}".format(args.crop_res, args.N, args.unit, int(args.min_size * 100), int(args.max_size * 100))

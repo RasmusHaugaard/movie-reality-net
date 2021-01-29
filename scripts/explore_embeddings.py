@@ -44,7 +44,7 @@ def on_click(e):
     if e.inaxes is not ax:
         return
     click_ax.clear()
-    click_ax.imshow(get_img(e)[..., ::-1])
+    click_ax.imshow(get_img(e))
     click_ax.axis('off')
     click_fig.canvas.draw()
 
@@ -53,7 +53,7 @@ def on_hover(e):
     if e.inaxes is not ax:
         return
     hover_ax.clear()
-    hover_ax.imshow(get_img(e)[..., ::-1])
+    hover_ax.imshow(get_img(e))
     hover_ax.axis('off')
     hover_fig.canvas.draw()
 
